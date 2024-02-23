@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import styles from './style';
 
 import { Navbar, Hero, Stats, Testimonials, Billing, Business, CardDeal, CTA, Clients, Footer } from './components'
@@ -13,20 +13,20 @@ const App = () => (
 
     <div className={`bg-primary ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        {/* <Hero /> */}
+        <Hero />
       </div>
     </div>
 
     <div className={`bg-primary ${styles.flexStart} ${styles.paddingX}`}>
       <div className={`${styles.boxWidth}`}>
-        {/* <Stats />
+        <Stats />
         <Business />
         <Billing /> 
         <CardDeal />
         <Testimonials />
         <Clients />
         <CTA />
-        <Footer /> */}
+        <Footer />
       </div>
     </div>
 
